@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 
 import { AppComponent } from './app.component';
+
 import { ServerComponent } from './server/server.component';
 import { ServersComponent } from './servers/servers.component';
 import {HeaderComponent}  from './header/header.component';
@@ -25,6 +26,7 @@ import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-ed
     RecipesItemComponent,
     ShoppingListComponent,
     ShoppingEditComponent
+  
   ],
   imports: [
     BrowserModule,
